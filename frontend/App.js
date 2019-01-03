@@ -9,8 +9,8 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View, Button } from "react-native";
 
-const server1 = "http://192.168.2.5:3000";
-const server2 = "http://192.168.2.5:3001";
+const server1 = "http://localhost:3000";
+const server2 = "http://localhost:3001";
 const googleTimeoutUrl = "https://www.google.com:81";
 const test500 = "https://httpstat.us/500";
 
