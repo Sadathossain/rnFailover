@@ -27,6 +27,7 @@ $ git clone https://github.com/Sadathossain/rnFailover.git
 $ cd rnFailover/backend
 $ yarn install
 $ yarn run server2
+# open another terminal with same directory
 $ cd ../frontend
 $ yarn install
 $ react-native run-android
