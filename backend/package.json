@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This runs two express servers on port 3000 & 3001",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "server1": "node server1",
+    "server2": "node server2"
+  },
+  "keywords": [
+    "failover"
+  ],
+  "author": "Sadat Hossain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
