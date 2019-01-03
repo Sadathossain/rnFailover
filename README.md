@@ -27,8 +27,11 @@ $ git clone https://github.com/Sadathossain/rnFailover.git
 $ cd rnFailover/backend
 $ yarn install
 $ yarn run server2
+# open another terminal with same directory
 $ cd ../frontend
 $ yarn install
+# forward second server port through adb
+$ adb reverse tcp:3001 tcp:3001
 $ react-native run-android
 ```
 
