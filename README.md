@@ -23,7 +23,7 @@ By default, our app will fail on first server due to timeout and will fetch data
 ## Setup
 
 ```sh
-$ https://github.com/Sadathossain/rnFailover.git
+$ git clone https://github.com/Sadathossain/rnFailover.git
 $ cd rnFailover/backend
 $ yarn install
 $ yarn run server2
